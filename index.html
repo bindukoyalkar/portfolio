@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Home Page</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+  <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" ><img src="images/logo.jpg" width="30px" height="30px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto" id="menu">
+      <a class="nav-item nav-link active" href="index.html"><i class="bi bi-house"></i>Home<span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link " href="about.html"><i class="bi bi-info-circle"></i> About</a>
+      <a class="nav-item nav-link " href="contact.html"><i class="bi bi-file-person-fill"></i> Contact</a>
+      <a class="nav-item nav-link " href="gallery.html"><i class="bi bi-camera2"></i> Gallery</a>
+    </div>
+  </div>
+</nav>
+<br>
+<div class="container-fluid">
+  <div class="jumbotron">
+    <h4>Hello There!</h4>
+    <h5>Welcome to My Portfolio Website</h5>
+    <hr>
+    <p>I am Bindu Malvika , Dev Intern at Zemoso Labs </p>
+    <p class="lead">
+      <a class="btn btn-primary btn-sm" href="about.html" role="button">Get to know me</a>
+    </p>
+  </div>
+
+  <h5> I have been trained in the following fields:</h5>
+  <div class="container">
+    <table>
+      <tr><td><button data-toggle="collapse" data-target="#github" type="button" class="btn btn-dark">
+        <i class="bi bi-git"></i>  Version Control</button>
+      <div id="github" class="collapse">
+        Version control, also known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time.
+      </div>
+      </td>
+      </tr>
+
+      <tr><td><button data-toggle="collapse" data-target="#cleancode" type="button" class="btn btn-light"><i class="bi bi-code-slash">
+      </i> Clean Code </button>
+        <div id="cleancode" class="collapse">
+          Writing clean, understandable, and maintainable code is a skill that is crucial for every developer to master.Clean code tells us how to write clean, maintainable code which anyone can understand
+        </div>
+      </td></tr>
+
+      <tr><td><button data-toggle="collapse" data-target="#java" type="button" class="btn btn-dark">
+        <i class="bi bi-code-slash"></i> Java </button>
+        <div id="java" class="collapse">
+          Java is a high level, robust, object-oriented and secure programming language.
+        </div>
+      </td></tr>
+      <tr><td><button  data-toggle="collapse" data-target="#dbms" type="button" class="btn btn-light">
+        <i class="bi bi-file-spreadsheet"></i> Database Management Systems </button>
+        <div id="dbms" class="collapse">
+          A database management system (or DBMS) is essentially nothing more than a computerized data-keeping system. Users of the system are given facilities to perform several kinds of operations on such a system for either manipulation of the data in the database or the management of the database structure itself.
+        </div>
+      </td></tr>
+
+      <tr><td><button data-toggle="collapse" data-target="#spring" type="button" class="btn btn-dark">
+        <i class="bi bi-code-slash"></i> Spring Framework</button>
+        <div id="spring" class="collapse">
+          Learnt about Spring annotations, Spring MVC, Hibernate, Spring AOP, Spring Security, Spring REST, Spring Boot, JPA,etc.
+        </div>
+      </td></tr>
+
+      <tr><td><button data-toggle="collapse" data-target="#rest" type="button" class="btn btn-light">
+        <i class="bi bi-code-slash"></i> REST </button>
+        <div id="rest" class="collapse">
+          A REST API (also known as RESTful API) is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services. REST stands for representational state transfer and was created by computer scientist Roy Fielding.
+        </div>
+      </td></tr>
+
+    </table>
+  </div>
+</div>
+</body>
+</html>
